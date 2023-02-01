@@ -4,15 +4,16 @@
   justify-content: center;
   max-width: 13.8rem;
   min-width: 13.8rem;
-  margin: 15rem 30rem;
+  margin: 15rem 20rem;
   border: 3px solid rgb(171, 182, 178);
   background-color: rgb(171, 182, 178);
   border-radius: 5px;
 }
 
-.result {
+#resultText {
   display: flex;
   justify-content: flex-end;
+  width: 92%;
   align-items: center;
   margin-top: 1px;
   padding: 5px;
@@ -21,6 +22,7 @@
   border: 3px solid rgb(209, 221, 221);
   background-color: rgb(233, 243, 243);
   border-radius: 5px;
+  text-align: end;
 }
 
 .buttons {
